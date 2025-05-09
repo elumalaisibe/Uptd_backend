@@ -1,0 +1,9 @@
+djangorestframework
+django-cors-headers
+numpy
+geojson
+xarray
+netCDF4
+tensorflow
+boto3
+s3fs
