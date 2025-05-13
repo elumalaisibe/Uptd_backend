@@ -30,7 +30,7 @@ file_key1='ERA5/ERA5_SM_0_5m_0_45_leadday_1999_2021_organize_normalized.nc'
 # Create an s3fs.S3FileSystem object with your AWS credentials if needed
 # If your AWS credentials are already configured externally (e.g., using environment variables or IAM roles),
 # you can skip this step.
-s3 = s3fs.S3FileSystem(anon=False, key='######', secret='#########')
+s3 = s3fs.S3FileSystem(anon=False, key='AKIAU43XJTI3JDYLIYXJ', secret='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')
 
 # Use xarray's open_dataset function with the s3fs.S3FileSystem object to read the file from S3
 with s3.open(f"{bucket_name}/{file_key}", mode='rb') as s3_file:

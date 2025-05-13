@@ -7,3 +7,5 @@ netCDF4
 tensorflow
 boto3
 s3fs
+scikit-learn
+pyexcel
